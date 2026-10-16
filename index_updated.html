@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Permission Letter for JA1 Anniversary</title>
+<style>
+:root { color-scheme: light dark; --bg: light-dark(#f8f3ed,#17131b); --paper: light-dark(#fffdf9,#241f29); --ink: light-dark(#342b34,#f6edf4); --muted: light-dark(#756874,#c8b8ca); --accent: light-dark(#8b4a69,#e6a3c0); --line: light-dark(#eadce2,#493846); }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink); }
+main { min-height: 100vh; padding: 36px 18px 54px; background: radial-gradient(ellipse at top, light-dark(#f0dfe7,#392537), transparent 58%), var(--bg); }
+.wrap { max-width: 760px; margin: auto; }
+.kicker { text-align: center; text-transform: uppercase; letter-spacing: .2em; color: var(--accent); font: 12px/1.5 system-ui,sans-serif; }
+h1 { text-align: center; font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 500; line-height: 1.08; margin: 14px 0 10px; }
+.sub { text-align: center; color: var(--muted); font: 15px/1.7 system-ui,sans-serif; max-width: 520px; margin: 0 auto 28px; }
+.paper { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: clamp(24px, 6vw, 54px); box-shadow: 0 20px 70px #00000012; position: relative; }
+.paper:before { content: '✦'; color: var(--accent); position: absolute; top: 18px; right: 22px; font-size: 20px; }
+.date { color: var(--muted); font: 13px system-ui,sans-serif; margin-bottom: 28px; }
+.salutation { font-size: 1.15rem; margin-bottom: 18px; }
+p { font-size: 1.08rem; line-height: 1.9; margin: 0 0 18px; }
+.signature { margin-top: 28px; }
+.signline { color: var(--accent); font-size: 1.5rem; font-style: italic; margin-top: 8px; }
+.note { text-align: center; color: var(--muted); font: 12px/1.7 system-ui,sans-serif; margin-top: 22px; }
+.actions { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:24px; }
+button { border: 1px solid var(--line); border-radius: 999px; padding: 12px 18px; background: var(--paper); color: var(--ink); font: 14px system-ui,sans-serif; cursor:pointer; }
+button.primary { background: var(--accent); color: light-dark(white,#25151e); border-color: transparent; }
+button:hover { transform: translateY(-1px); }
+#invite { display:none; margin-top:20px; padding:18px; border-radius:12px; background: light-dark(#f6e9ef,#332330); text-align:center; line-height:1.8; }
+footer { text-align:center; color:var(--muted); font:12px system-ui,sans-serif; margin-top:26px; }
+@media print { body, main { background:white; color:#222; } .actions, .note, footer, .sub { display:none; } .paper { box-shadow:none; border:0; } }
+</style>
+</head>
+<body>
+<main>
+<div class="wrap">
+<div class="kicker">A sincere and respectful request</div>
+<h1>May I Ask for Your Blessing?</h1>
+<div class="sub">A respectful request to invite Kath De Guzman to the 1st Church Anniversary of Jesus the Anointed One Church (JA1).</div>
+<article class="paper" id="letter">
+<div class="date">October 16, 2026 · Dear Lolo, Lola, and Tito,</div>
+<div class="salutation">Maayong adlaw po.</div>
+<p>Una sa tanan, gusto ko magpakita sa akong respeto kaninyo ug mangayo sa inyong pagtugot sa usa ka butang nga importante para nako.</p>
+<p>Sa umaabot nga <strong>1st Church Anniversary sa Jesus the Anointed One Church (JA1)</strong> karong <strong>November 29, 2026</strong>, naa unta koy plano nga imbitahon si <strong>Kath De Guzman</strong> nga moapil ug mosimba uban namo. Gusto nako nga makig-share siya sa usa ka espesyal nga adlaw para sa among church.</p>
+<p>Ang anniversary pagahimoon sa <strong>Optimum One Building, Lapu-Lapu City</strong>, gikan sa <strong>10:00 AM hangtod 3:00 PM</strong>.</p>
+<p>Sa dili pa nako siya imbitahon, mas gusto nako nga mangayo una sa inyong permiso ug panalangin. Dili ko gusto nga molapas sa inyong pagsalig o makapahimo og bisan unsang butang nga dili komportable para ninyo. Akong tuyo kay matinahuron ug tarong, ug respetohon nako ang inyong desisyon ug bisan unsang kondisyon nga inyong ihatag.</p>
+<p>Kung okay ra ninyo, malipay kaayo ko nga hatagan ninyo ko og pagtugot nga imbitahon siya. Salamat kaayo sa inyong oras, pagsabot, ug konsiderasyon.</p>
+<p>God bless po, ug daghang salamat.</p>
+<div class="signature">Matinahuron nga naghangyo,</div>
+<div class="signline">Mark Calambro</div>
+</article>
+<div class="actions">
+<button class="primary" onclick="document.getElementById('invite').style.display='block'; this.textContent='Invitation note opened';">Tan-awa ang sunod nga plano</button>
+<button onclick="window.print()">Print / Save as PDF</button>
+</div>
+<div id="invite"><strong>Kung okay ra ninyo…</strong><br>Imbitahon nako si Kath sa 1st Church Anniversary sa Jesus the Anointed One Church (JA1) karong November 29, 2026, sa Optimum One Building, Lapu-Lapu City, gikan sa <strong>10:00 AM hangtod 3:00 PM</strong>. Sultihan nako siya sa detalye ug mangayo pud ko sa iyang gusto.</div>
+<div class="note">Personalized for Kath De Guzman · From Mark Calambro · JA1 1st Church Anniversary, November 29, 2026.</div>
+<footer>Made with respect, honesty, and good intentions.</footer>
+</div>
+</main>
+</body>
+</html>
